@@ -5,9 +5,20 @@
 <main in:fade={{ duration: 500 }}>
     <div class="container">
         <br />
-        <h4>[Unreleased] v0.6.0</h4>
+        <h1>Changelog</h1>
+        <br />
+        <h4>[Future]</h4>
         <ul>
+            <li>Blogpost pagination.</li>
             <li>Working on some ideas about Unity WebGL + Socket.io.</li>
+            <li>Migrate to SvelteKit to harness the power of Server-Side Rendering.</li>
+        </ul>
+
+        <h4>v0.6.0</h4>
+        <ul>
+            <li>Remove svelte-progressbar dependency. It added 34k to the bundle size.</li>
+            <li>Deplyed Gravity Falls and Baccano.</li>
+            <li>Cache blog posts.</li>
         </ul>
 
         <h4>v0.5.9</h4>
@@ -15,6 +26,7 @@
             <li>Showcase projects on homepage.</li>
             <li>Cleaned/organized frontend codebase.</li>
             <li>Add this site frontend as showcase.</li>
+            <li>Added lazy loading to images. (except blog ones)</li>
         </ul>
 
         <h4>v0.5.8</h4>
